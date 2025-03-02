@@ -8,6 +8,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String getData(){
-        return "test data for controller first";
+
+        return " test data for controller first";
     }
 }
